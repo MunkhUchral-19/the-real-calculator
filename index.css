@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#container1{
+    width: 600px;
+    height: 900px;
+    border: solid black 3px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    font-size: 40px;
+}
+
+#result{
+    width: 590px;
+    height: 200px;
+    border: solid black 3px;
+}
+
+#uildel{
+    width: 590px;
+    height: 590px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 80px;
+}
+
+.netBtn{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 130px;
+    height: 100px;
+}
